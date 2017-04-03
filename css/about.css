@@ -1,0 +1,123 @@
+.jumbotron p,
+h1 {
+	margin-left: 15%;
+	color: white;
+}
+
+.jumbotron h1 {
+	color: white;
+}
+
+.jumbotron {
+	margin-top: 50px;
+	background-image: url(../img/about.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+#contact {
+	margin-left: 20%;
+	border-left: 1px dashed #DDDDDD;
+	padding-left: 30px;
+	margin-bottom: 50px;
+	color: #4B4B4B;
+	font-weight: 100;
+}
+
+#contact h2 {
+	font-size: 38px;
+	font-weight: 100;
+}
+
+#contact p {
+	font-size: 28px;
+}
+
+#links {
+	height: 150px;
+}
+
+#biaoti {
+	width: 90%;
+	height: 50px;
+}
+
+#links p {
+	color: #3C3C3C;
+	font-size: 16px;
+	font-weight: 100;
+	height: 20px;
+}
+
+#logo {
+	width: 26px;
+	height: 26px;
+	background-image: url(../img/note.png);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-left: 20%;
+	margin-top: 13px;
+}
+
+#links h1 {
+	color: #5BC0DE;
+	font-weight: 100;
+	margin: 10px;
+	font-size: 30px;
+	float: left;
+}
+
+#linksss {
+	border-left: 1px solid #DDDDDD;
+	float: left;
+	padding: 0;
+}
+
+#linksss h4 {
+	color: #5BC0DE;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+#about,
+#friend {
+	float: left;
+	width: 25%;
+	margin-left: 10%;
+	text-align: left;
+}
+
+#linksss a {
+	text-decoration: none;
+	color: #787D82;
+	font-size: 14px;
+}
+
+
+/*450px以下*/
+
+@media only screen and (min-width: 100px) and (max-width: 450px) {
+	#contact {
+		margin-left: 0;
+	}
+	#title {
+		padding: 0;
+	}
+	#logo {
+		display: none;
+	}
+	.jumbotron p,
+	h1 {
+		margin-left: 5%;
+		margin-bottom: 20px;
+		
+	}
+	#links h1{
+		margin-left: 10%;
+	}
+	#friend{
+		margin-left: 15%;
+	}
+	
+}

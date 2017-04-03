@@ -1,0 +1,56 @@
+*{
+	font-family: "Microsoft Yahei";
+	
+}
+.banquan{
+	color: #b4bbbf;
+	text-align: center;
+}
+.navbar-default{
+	background-color: #5BC0DE;
+	border: none;
+	border-radius: 0;
+}
+.navbar{
+	margin-bottom: 0;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    color: white;
+    background-color: #1C86EE;
+}
+.dropdown-menu{
+	background-color: white;
+	border: none;
+	padding:0;
+}
+.dropdown-menu>li>a{
+	color: #5a5a5a;
+	padding: 8px 20px;
+}
+.dropdown-menu .divider{
+	margin: 0;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
+	background-color: #5BC0DE;
+	color: white;
+	transition: all 0.3s;
+}
+
+@media (max-width: 767px){
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff;
+}
+}
+/*模态框样式*/
+.modal-header{
+	background-color: #5BC0DE;
+	border-radius: 4px 4px 0 0;
+}

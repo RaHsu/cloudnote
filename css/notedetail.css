@@ -1,0 +1,160 @@
+#intro{
+	height: 220px;
+	margin-top: 50px;
+	background-image: url(../img/introbackground.jpg);
+	background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+   
+    
+}
+#touxiang{
+	margin-left: 90px;
+	margin-top: 70px;
+	width: 180px;
+	height: 180px;
+	float: left;
+	border-radius: 50%;
+	border: 3px solid #5BC0DE;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 180px 180px;
+	
+	
+}
+#name{
+	position:relative;
+	top: 60px;
+}
+.name{
+	
+	height: 100px;
+	color: white;
+	font-size: 60px;
+	margin-left: 350px;
+	
+}
+#motto{
+	position: relative;
+	top: 50px;
+}
+.motto{
+	height: 50px;
+	font-size: 18px;
+	color: white;
+	margin-left: 350px;
+	opacity: 0.6;
+}
+#non-intro{
+	widows: 100%;
+	margin-bottom: 40px;
+	margin-top:50px;
+}
+#toolbox{
+	width: 200px;
+	height: 350px;
+	margin-left: 70px;
+	float: left;
+}
+#toolbar a{
+	text-decoration: none;
+}
+#toolbar ul{
+	list-style: none;
+}
+#toolbar li{
+	height: 70px;
+	display: block;
+	font-size: 16px;
+	text-align: center;
+	line-height: 70px;
+	border-bottom: 1px solid #DDDDDD;
+	color: #787d82;
+}
+#toolbar li:hover{
+	color: #5BC0DE;
+	margin-left: 10px;
+	transition: all 0.25s; 
+}
+/*非通用*/
+#content{
+	float: left;
+	width: 70%;
+	margin-left: 70px;
+}
+#content{
+		font-size: 16px;
+}
+.editbtn{
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+.deletebtn{
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	
+}
+
+
+/*回到顶部按钮*/
+#backtotop{
+	position: fixed;
+	top: 500px;
+	left: 150px;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	background-color: white;
+	border: 1px solid #ADADAD;
+	color: #787D82;
+	display: none;
+	transition: all 0.4s;
+}
+#backtotop:hover{
+	color: white;
+	background-color: #5BC0DE;
+}
+.up{
+	font-size: 38px;
+}
+/*1150px一下情况*/
+@media only screen and (min-width: 100px) and (max-width: 1150px) {
+	#toolbox{
+		display: none;
+	}
+	#content{
+		margin-left: 5%;
+		width: 90%;
+	}
+	#backtotop{
+		display: none;
+	}
+}
+/*465一下情况*/
+@media only screen and (min-width: 100px) and (max-width: 465px) {
+	#motto{
+		display: none;
+	}
+	#name{
+		display: none;
+	}
+	.membox{
+		width: 100%;
+	}
+	#textbox{
+		width: 90%;
+		margin-left: 5%;
+	}
+	#content{
+		width: 90%;
+		margin-left: 5%;
+	}
+	#backtotop{
+		display: none;
+	}
+	
+}
+
+
