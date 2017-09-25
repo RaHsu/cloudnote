@@ -168,6 +168,7 @@
            			 
         } ,*/
         		pasteImage:true,
+        		upload:true
 			});
 
 			
